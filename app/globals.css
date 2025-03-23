@@ -1,3 +1,4 @@
+
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
@@ -82,5 +83,15 @@
 
 .bg-secondary-light {
   @apply bg-secondary/20 dark:bg-secondary/30;
+}
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer utilities {
+  .border-border {
+    border-color: hsl(var(--border));
+  }
 }
 
